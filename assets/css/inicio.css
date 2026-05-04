@@ -1,0 +1,137 @@
+.footer-ipf {
+
+  background: #102033;
+  color: white;
+  padding: 28px 20px;
+}
+
+
+.footer-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer-logo {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+
+  padding: 6px;
+  border-radius: 8px;
+}
+
+.footer-brand h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.footer-brand p,
+.footer-info p {
+  margin: 4px 0 0;
+  color: #cbd5e1;
+  font-size: 14px;
+}
+
+.footer-info {
+  text-align: right;
+}
+
+.chiquito {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.chiquito img {
+  height: 400px;
+  object-fit: cover;
+}
+
+
+
+main {
+  padding-bottom: 48px;
+}
+
+.chiquito {
+  max-width: 1100px;
+  margin: 32px auto 0;
+  padding: 0 16px;
+}
+
+.carousel {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.carousel-item img {
+  height: 430px;
+  object-fit: cover;
+}
+
+.novedades-section {
+  max-width: 1100px;
+  margin: 48px auto;
+  padding: 0 16px;
+}
+
+.novedades-section h1 {
+  margin-bottom: 24px;
+  text-align: center;
+  font-weight: 700;
+  color: #1f2d3d;
+}
+
+.novedades-grid {
+  justify-content: center;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 34px rgba(16, 32, 51, 0.16);
+}
+
+.card-img-top {
+  height: 210px;
+  object-fit: cover;
+}
+
+.card-title {
+  color: #1f2d3d;
+  font-weight: 700;
+}
+
+.card-text {
+  color: #4b5563;
+}
+
+.btn-primary {
+  background-color: #005baa;
+  border-color: #005baa;
+}
+
+.btn-primary:hover {
+  background-color: #004783;
+  border-color: #004783;
+}
+
+.footer-ipf {
+  margin-top: 48px;
+}
