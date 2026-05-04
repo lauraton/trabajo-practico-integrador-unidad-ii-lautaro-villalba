@@ -1,0 +1,39 @@
+:root {
+  --verde-petroleo: #0f3d3e;
+}
+
+.titulo-seccion {
+  
+  font-weight: bold;
+}
+
+.card-autoridad {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.card-autoridad:hover {
+  transform: scale(1.05);
+}
+
+.card-autoridad img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.card-autoridad .card-title {
+ 
+  font-weight: bold;
+}
+
+.card-autoridad .card-text {
+  color: #555;
+}
+
+main {
+    background-color: #C6E5B1;
+    padding: 15px;
+}
